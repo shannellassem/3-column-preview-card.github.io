@@ -1,0 +1,234 @@
+/*paragph font*/
+    @import url('https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap');
+/*heading font*/
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&display=swap');
+
+/*primary*/
+    $sedans: hsl(31, 77%, 52%);
+    $suvs: hsl(184, 100%, 22%);
+    $luxury: hsl(179, 100%, 13%);
+
+/*text colors*/
+    $paragraphs: hsla(0, 0%, 100%, 0.75);
+    $headings-and-buttons: hsl(0, 0%, 95%);
+
+* {
+    margin: 0;
+    padding: 0;
+    font-size: 15px;
+}
+
+.container {
+    margin: 4em 3em;
+    
+}
+
+.sedans {
+    background-color: $sedans;
+    padding: 3em 0 3em 0;
+
+    .content {
+        margin: 0 3em 0 3em;
+
+        img {
+            margin-bottom: 2em;
+        }
+
+        h1 {
+            font-family: 'Big Shoulders Display';
+            font-size: 2.5rem;
+            text-transform: uppercase;
+            color: $headings-and-buttons;
+            margin-bottom: .5em;
+        }
+
+        p {
+            font-family: "Lexend Deca";
+            color: $paragraphs;
+            line-height: 1.5em;
+            
+        }
+
+        input[type=button] {
+            background-color: $headings-and-buttons;
+            margin-top: 1.5em;
+            border: none;
+            padding: 1em 2em;
+            border-radius: 3em;
+            font-family: "Lexend Deca";
+            color: $sedans;
+            cursor: pointer;
+
+            
+
+        }
+
+        }
+
+
+    }
+
+.suvs {
+    background-color: $suvs;
+    padding: 3em 0 3em 0;
+
+    .content {
+        margin: 0 3em 0 3em;
+
+        img {
+            margin-bottom: 2em;
+        }
+
+        h1 {
+            font-family: 'Big Shoulders Display';
+            font-size: 2.5rem;
+            text-transform: uppercase;
+            color: $headings-and-buttons;
+            margin-bottom: .5em;
+        }
+
+        p {
+            font-family: "Lexend Deca";
+            color: $paragraphs;
+            line-height: 1.5em;
+            
+        }
+
+        input[type=button] {
+            background-color: $headings-and-buttons;
+            margin-top: 1.5em;
+            border: none;
+            padding: 1em 2em;
+            border-radius: 3em;
+            font-family: "Lexend Deca";
+            color: $suvs;
+            cursor: pointer;
+
+            
+
+        }
+
+        }
+}
+
+.luxury {
+    background-color: $luxury;
+    padding: 3em 0 3em 0;
+
+    .content {
+        margin: 0 3em 0 3em;
+
+        img {
+            margin-bottom: 2em;
+        }
+
+        h1 {
+            font-family: 'Big Shoulders Display';
+            font-size: 2.5rem;
+            text-transform: uppercase;
+            color: $headings-and-buttons;
+            margin-bottom: .5em;
+        }
+
+        p {
+            font-family: "Lexend Deca";
+            color: $paragraphs;
+            line-height: 1.5em;
+            
+        }
+
+        input[type=button] {
+            background-color: $headings-and-buttons;
+            margin-top: 1.5em;
+            border: none;
+            padding: 1em 2em;
+            border-radius: 3em;
+            font-family: "Lexend Deca";
+            color: $luxury;
+            cursor: pointer;
+
+            
+
+        }
+
+        }
+}
+
+@media screen and (min-width: 700px){
+
+    
+    .container {
+        display: flex;
+        flex-direction: row;
+        flex: wrap;
+        max-width: 840px;
+        margin: 75px 260px 0;
+        
+        
+
+    }
+
+    
+    .sedans {
+        border-radius: 1em 0 0 1em;
+        
+
+        
+
+        P {
+            margin-bottom: 3em;
+        }
+        input[type=button] {
+
+        
+        &:hover {
+            background-color: $sedans;
+            color: $headings-and-buttons;
+            border: 1px solid $headings-and-buttons;
+            
+        }
+    }
+        
+    }
+
+    .suvs {
+
+        
+        
+        p {
+            margin-bottom: 4.5em;
+        }
+
+        input[type=button] {
+
+        
+            &:hover {
+                background-color: $suvs;
+                color: $headings-and-buttons;
+                border: 1px solid $headings-and-buttons;
+                
+            }
+        }
+    }
+
+
+    .luxury {
+        border-radius: 0 1em 1em 0;
+
+        P {
+            margin-bottom: 3em;
+        }
+
+        input[type=button] {
+
+        
+            &:hover {
+                background-color: $luxury;
+                color: $headings-and-buttons;
+                border: 1px solid $headings-and-buttons;
+                
+            }
+        }
+    }
+    
+}
