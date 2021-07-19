@@ -43,7 +43,7 @@ Users should be able to:
 
 ## My process
 
-Since all the information was the same layout, my focus was to get one perfect then copy the codes to the other 2 cards. I started with Sedans. Once I felt like it was accurate, I copied the same code to suvs and luxury. All I hade to do was change the color. Everything else was exacly the same in terms of format. Same stratergy went for desktop and mobile.
+Since all the information was the same layout, my focus was to get one perfect then copy the codes to the other 2 cards. I started with Sedans. Once I felt like it was accurate, I copied the same code to suvs and luxury. All I had to do was change the color. Everything else was exactly the same in terms of format. Same strategy went for desktop and mobile.
 
 ### Built with
 
@@ -58,7 +58,7 @@ Since all the information was the same layout, my focus was to get one perfect t
 
 ### What I learned
 
-Flex when it came to the desktop version really made things easy for me. With minor adjustments, everything was contained the way I wanted. It was only a matter of moving the whole thing to the center. 
+Flex was super helpful when it came to the desktop version. It really made things easier for me. With minor adjustments, everything was contained the way I wanted. It was only a matter of moving the whole container to the center.
 
 ```scss
 ```.container {
